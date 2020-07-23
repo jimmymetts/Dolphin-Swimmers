@@ -13,6 +13,7 @@ function Beginners() {
             <p>Float on Back (5-10 seconds assisted)</p>
             <hr/>
             <p>Float on Back (5-10 seconds unassisted)</p>
+            <hr/>
             <p>Glide on Back, add Flutter Kick</p>
             <form input='text'>Comments/Notes</form>
         </div>
