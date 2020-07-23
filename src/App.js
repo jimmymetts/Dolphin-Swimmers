@@ -5,14 +5,16 @@ import Login from './Login';
 import { Route, Link } from 'react-router-dom';
 import NavBar from './Navbar';
 import Intermediate from './Intermediate';
+import SimpleRating from './SimpleRating'
 
 function App() {
   return (
     <div className="App">
-    <NavBar/>
+    
     <Route exact path ="/" component={Login} />
     <Route exact path ="/beginners" component={Beginners} />
     <Route exact path ="/intermediate" component={Intermediate} />
+    <Route exact path ="/SimpleRating" component={SimpleRating} />
     
     </div> 
   );

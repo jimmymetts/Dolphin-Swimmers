@@ -3,6 +3,15 @@ import { Button, Form, FormGroup, Label, Input} from 'reactstrap';
 
 function Login() {
     return (
+        <div>
+        <h1></h1>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+        
+       
         <Form className='login-form'>
             <h1>
                 <span className='font-weight-bold ' >Dolphin Swimmers</span>              
@@ -24,6 +33,8 @@ function Login() {
 
             </div>
         </Form>
+        </div>
+        
     )
 }
  

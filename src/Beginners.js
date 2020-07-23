@@ -2,15 +2,17 @@ import React from 'react'
 import {Button} from 'reactstrap'
 import { Container } from 'reactstrap';
 import './Beginners.css';
+import './Navbar';
 
 function Beginners() {
     return (
+        
         <div>
-            <h1>Beginners</h1>
+            <h1>Beginner</h1>
 <>
-<Container className="themed-container" fluid={true}>.container-fluid</Container>
+{/* <Container className="themed-container" fluid={true}>.container-fluid</Container> */}
             </>
-            <p>Face In Water (3 seconds)</p>
+            <p>Face In Water (3 seconds)</p>          
             <hr/>
             <p>Glide on Front (face in water 3 seconds)</p>
             <hr/>
@@ -35,3 +37,5 @@ function Beginners() {
 }
 
 export default Beginners
+
+
