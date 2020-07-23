@@ -6,11 +6,6 @@ import { Route, Link } from 'react-router-dom';
 import NavBar from './Navbar';
 import Intermediate from './Intermediate';
 
-
-
-
-
-
 function App() {
   return (
     <div className="App">
@@ -28,6 +23,3 @@ export default App;
 
 
 
-{/* <Home />
-    <Login />
-    <Beginners /> */}

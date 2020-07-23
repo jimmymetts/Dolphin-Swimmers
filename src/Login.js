@@ -23,11 +23,7 @@ function Login() {
                 <a href='/sign-up'>Forgot Password</a>
 
             </div>
-
-
-
         </Form>
-
     )
 }
  
