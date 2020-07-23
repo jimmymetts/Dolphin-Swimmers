@@ -16,7 +16,7 @@ function Login() {
                 <Label>Password</Label>
                 <Input type="password" placeholder="Password"/>
             </FormGroup>
-            <Button className='btn-lg btn-dark btn-block'>Log In</Button>
+            <Button className='btn-lg btn-info btn-block'>Log In</Button>
             <div className='text-center'>
                 <a href='/sign-up'>Sign Up</a>
                 <span className='p-2'>|</span>

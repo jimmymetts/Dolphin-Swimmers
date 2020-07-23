@@ -13,3 +13,12 @@
   background-color: rgb(10, 158, 184);
   height: 100vh;
 }
+
+.Nav-Bar {
+  color: white;
+  font: white;
+}
+
+.Nav-Bar li a {
+  color: white;
+}
