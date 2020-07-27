@@ -119,7 +119,18 @@ return (
             setHover(newHover);
         }}    
      ></Rating></p>   
-     <hr/>   
+     <hr/>
+     <p>Streamlines Off Wall
+        <Rating 
+            style={{marginLeft:50}}
+            value={value} 
+            onChange={(e, newValue) => {
+            setValue(newValue);
+        }} 
+            onChangeActive={(e, newHover) => {
+            setHover(newHover);
+        }}    
+     ></Rating></p>   
      <hr/>
             <form input='text'>Comments/Notes</form>
             <textarea placeholder='Comments/Notes'></textarea>
