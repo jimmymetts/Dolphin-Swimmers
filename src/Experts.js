@@ -57,7 +57,45 @@ return (
              setHover(newHover);
         }}    
        ></Rating></p> 
-        <hr/> 
+        <hr/>
+      <p>Complex Drills
+        <Rating 
+            style={{marginLeft:50}}
+             value={value} 
+             onChange={(e, newValue) => {
+             setValue(newValue);
+        }} 
+            onChangeActive={(e, newHover) => {
+            setHover(newHover);
+        }}    
+        ></Rating></p> 
+
+        <hr/>
+     <p>Full Lap Legal Breaststroke
+        <Rating 
+            style={{marginLeft:50}}
+            value={value} 
+            onChange={(e, newValue) => {
+            setValue(newValue);
+        }} 
+            onChangeActive={(e, newHover) => {
+            setHover(newHover);
+        }}    
+        ></Rating></p> 
+        
+        <hr/>
+     <p>Full Lap Legal Backstroke
+        <Rating 
+            style={{marginLeft:50}}
+            value={value} 
+            onChange={(e, newValue) => {
+            setValue(newValue);
+        }} 
+            onChangeActive={(e, newHover) => {
+            setHover(newHover);
+        }}    
+     ></Rating></p>   
+     <hr/>
      <hr/>
             <form input='text'>Comments/Notes</form>
             <textarea placeholder='Comments/Notes'></textarea>
