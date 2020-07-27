@@ -6,13 +6,12 @@
   padding: 15px;
   border-radius: 5px;
   margin: auto;
-
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .App {
   background-color: rgb(10, 158, 184);
-  height: 100vh;
+  height: auto;
 }
 
 .Nav-Bar {
@@ -32,3 +31,7 @@ p {
 form {
   color: white;
 }
+
+/* .list-group {
+  background-color: blue;
+} */

@@ -1,3 +1,18 @@
 .themed-container {
   background-color: #dbecff;
 }
+
+.div-one {
+  border: 3px solid white;
+  /* border-radius: 5%; */
+  padding-left: 10%;
+  width: 50%;
+}
+
+.rating {
+  margin-left: 5%;
+}
+
+.card-one {
+  background-color: teal;
+}

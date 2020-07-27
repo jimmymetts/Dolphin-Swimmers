@@ -1,11 +1,14 @@
 import React from 'react';
+
 import './App.css';
 import Beginners from './Beginners';
 import Login from './Login';
 import { Route, Link } from 'react-router-dom';
 import NavBar from './Navbar';
 import Intermediate from './Intermediate';
-import SimpleRating from './SimpleRating'
+import Advanced from './Advanced';
+import Experts from './Experts';
+
 
 function App() {
   return (
@@ -14,7 +17,9 @@ function App() {
     <Route exact path ="/" component={Login} />
     <Route exact path ="/beginners" component={Beginners} />
     <Route exact path ="/intermediate" component={Intermediate} />
-    <Route exact path ="/SimpleRating" component={SimpleRating} />
+    <Route exact path ="/advanced" component={Advanced} />
+    <Route exact path ="/experts" component={Experts} />
+    
     
     </div> 
   );
