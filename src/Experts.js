@@ -44,7 +44,20 @@ return (
         }}    
         ></Rating></p> 
        
-     
+    
+       <hr/>
+      <p>Breaststroke Flip Turn
+        <Rating 
+            style={{marginLeft:50}}
+            value={value} 
+            onChange={(e, newValue) => {
+            setValue(newValue);
+        }} 
+            onChangeActive={(e, newHover) => {
+             setHover(newHover);
+        }}    
+       ></Rating></p> 
+        <hr/> 
      <hr/>
             <form input='text'>Comments/Notes</form>
             <textarea placeholder='Comments/Notes'></textarea>
