@@ -25,13 +25,10 @@
 h1 {
   color: white;
 }
-p {
-  color: white;
-}
-form {
+.p {
   color: white;
 }
 
-/* .list-group {
-  background-color: blue;
-} */
+form {
+  color: white;
+}
