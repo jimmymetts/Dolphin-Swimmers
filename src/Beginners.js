@@ -104,19 +104,23 @@ function Beginners() {
                 setHover(newHover);
             }}    
          ></Rating></p> 
-         <Table  bordered class="table table-hover " className='table'>
+         <Table  /*bordered*/ hover  class="table table-hover " className='table'>
   <thead>
     <tr>
       {/* <th scope="col">#</th> */}
       <th scope="col">Achievement</th>
       <th scope="col">First Accessment</th>
+      <th scope="col"></th>
       <th scope="col">Last Accessment</th>
-      <th scope="col">Total/Average</th>
+      <th scope="col">Total</th>
+      <th scope="col">Average</th>
+      <th scope="col">Change/Progress</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       {/* <th scope="row">1</th> */}
+      {/* row 1  */}
       <td>Face In Water (3 seconds)</td>
       <td>            <Rating 
                 style={{marginLeft:-6}}
@@ -128,6 +132,7 @@ function Beginners() {
                 setHover(newHover);
             }}    
          ></Rating></td>
+         <th scope="col"></th>
       <td><Rating 
                 style={{marginLeft:-6}}
                 value={value} 
@@ -138,6 +143,8 @@ function Beginners() {
                 setHover(newHover);
             }}    
          ></Rating></td>
+         <th scope="col"></th>
+         <th scope="col"></th>
          <th scope="col"></th>
     </tr>
   </tbody>
@@ -156,6 +163,10 @@ function Beginners() {
                 setHover(newHover);
             }}    
          ></Rating></td>
+
+         {/* * empty col b/w 1st & Final accessment * */}
+         <th scope="col"></th> 
+
       <td><Rating 
                 style={{marginLeft:-6}}
                 value={value} 
@@ -184,6 +195,9 @@ function Beginners() {
                 setHover(newHover);
             }}    
          ></Rating></td>
+
+        <th scope="col"></th>
+
       <td><Rating 
                 style={{marginLeft:-6}}
                 value={value} 
@@ -194,6 +208,8 @@ function Beginners() {
                 setHover(newHover);
             }}    
          ></Rating></td>
+         <th scope="col"></th>
+         <th scope="col"></th>
          <th scope="col"></th>
     </tr>
   </tbody>
@@ -212,6 +228,10 @@ function Beginners() {
                 setHover(newHover);
             }}    
          ></Rating></td>
+
+
+        <th scope="col"></th>
+
       <td><Rating 
                 style={{marginLeft:-6}}
                 value={value} 
@@ -222,6 +242,8 @@ function Beginners() {
                 setHover(newHover);
             }}    
          ></Rating></td>
+         <th scope="col"></th>
+         <th scope="col"></th>
          <th scope="col"></th>
     </tr>
   </tbody>
@@ -240,6 +262,9 @@ function Beginners() {
                 setHover(newHover);
             }}    
          ></Rating></td>
+
+        <th scope="col"></th>
+
       <td><Rating 
                 style={{marginLeft:-6}}
                 value={value} 
@@ -250,6 +275,8 @@ function Beginners() {
                 setHover(newHover);
             }}    
          ></Rating></td>
+         <th scope="col"></th>
+         <th scope="col"></th>
          <th scope="col"></th>
     </tr>
   </tbody>
@@ -278,6 +305,8 @@ function Beginners() {
                 setHover(newHover);
             }}    
          ></Rating></td>
+         <th scope="col"></th>
+         <th scope="col"></th>
          <th scope="col"></th>
     </tr>
   </tbody>
