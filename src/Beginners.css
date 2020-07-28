@@ -27,3 +27,15 @@ h1 {
 p {
   color: white;
 }
+
+/* font color for table headings */
+th {
+  color: #dbecff;
+}
+
+/* font color for table cells */
+
+td {
+  color: #dbecff;
+  font-weight: 500;
+}
